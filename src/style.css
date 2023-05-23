@@ -1,0 +1,314 @@
+@font-face {
+  font-family: "Butler";
+  src: url("./fonts/Butler-UltraLight.woff2") format("woff2"),
+    url("./fonts/Butler-UltraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Butler";
+  src: url("./fonts/Butler-Medium.woff2") format("woff2"),
+    url("./fonts/Butler-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Butler";
+  src: url("./fonts/Butler-Light.woff2") format("woff2"),
+    url("./fonts/Butler-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Butler";
+  src: url("./fonts/Butler-Black.woff2") format("woff2"),
+    url("./fonts/Butler-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Butler";
+  src: url("./fonts/Butler-Bold.woff2") format("woff2"),
+    url("./fonts/Butler-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Butler";
+  src: url("./fonts/Butler-ExtraBold.woff2") format("woff2"),
+    url("./fonts/Butler-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Butler";
+  src: url("./fonts/Butler.woff2") format("woff2"),
+    url("./fonts/Butler.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 900;
+  src: url("./fonts/Inter-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 700;
+  src: url("./fonts/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 800;
+  src: url("./fonts/Inter-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 200;
+  src: url("./fonts/Inter-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 300;
+  src: url("./fonts/Inter-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 500;
+  src: url("./fonts/Inter-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  src: url("./fonts/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 600;
+  src: url("./fonts/Inter-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 100;
+  src: url("./fonts/Inter-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: 900;
+  src: url("./fonts/PublicSans-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: 900;
+  font-style: italic;
+  src: url("./fonts/PublicSans-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: 700;
+  src: url("./fonts/PublicSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: 700;
+  font-style: italic;
+  src: url("./fonts/PublicSans-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: 800;
+  src: url("./fonts/PublicSans-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: 800;
+  font-style: italic;
+  src: url("./fonts/PublicSans-ExtraBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: 200;
+  src: url("./fonts/PublicSans-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: 200;
+  font-style: italic;
+  src: url("./fonts/PublicSans-ExtraLightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: normal;
+  src: url("./fonts/PublicSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: 300;
+  src: url("./fonts/PublicSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: 300;
+  font-style: italic;
+  src: url("./fonts/PublicSans-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: 500;
+  src: url("./fonts/PublicSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-style: italic;
+  src: url("./fonts/PublicSans-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: 400;
+  src: url("./fonts/PublicSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: 600;
+  src: url("./fonts/PublicSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-style: italic;
+  src: url("./fonts/PublicSans-SemiBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: 100;
+  src: url("./fonts/PublicSans-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-weight: 100;
+  font-style: italic;
+  src: url("./fonts/PublicSans-ThinItalic.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #d5c7ba;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+body {
+  display: grid;
+  height: 100%;
+  grid-template-rows: 1fr 4fr;
+}
+
+.hello {
+  font-family: "Butler";
+  font-size: 3.5rem;
+  /* font-weight: 300; */
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+ol {
+  display: inline-flex;
+  list-style-type: none;
+  width: 50%;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  margin: none;
+}
+
+a {
+  font-family: "Inter";
+  font-weight: 200;
+  font-size: 1.25rem;
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr;
+  grid-auto-rows: 1fr;  
+  width: 60%;
+  justify-self: center;
+}
+
+main div {
+  /* Adjust the styles of your grid items as needed */
+  height: 15rem;
+  padding: 20px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.about-text-container {
+    height: 100%;
+    display: block;
+    font-family: 'Inter';
+    font-weight: 200;
+}
+
+.about-container h2 {
+  font-family: "Butler";
+  font-weight: 500;
+  font-size: 5.5rem;
+}
+
+.cover-photo {
+    height: 100%;
+    background-image: url(./img/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    min-width: 300px; 
+    min-height: 225px;
+    
+}
