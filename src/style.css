@@ -230,13 +230,13 @@
 }
 
 main {
-    display: grid;
-    grid-template-rows: 1fr 2fr;
-    grid-auto-rows: 1fr;
-    width: 60%;
-    justify-self: center;
-    /* background-color: white; */
-  }
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-auto-rows: 1fr;
+  width: 60%;
+  justify-self: center;
+  /* background-color: white; */
+}
 
 /* Styles for devices with a maximum width of 480px */
 @media (max-width: 480px) {
@@ -267,21 +267,21 @@ main {
 
 /* Styles for devices with a minimum width of 769px */
 @media (min-width: 1081px) and (max-width: 1440px) {
-    /* CSS rules for desktop devices */
-    /* Example: */
-    main {
-      width: 60%;
-    }
+  /* CSS rules for desktop devices */
+  /* Example: */
+  main {
+    width: 60%;
   }
+}
 
-  /* Styles for devices with a minimum width of 769px */
+/* Styles for devices with a minimum width of 769px */
 /* @media (min-width: 1441px) and (max-width: 2560px) {
     /* CSS rules for desktop devices */
-    /* Example: */
-    /* main {
+/* Example: */
+/* main {
       width: 60%;
     } */
- /* } */
+/* } */
 
 html {
   background-color: #d5c7ba;
@@ -321,24 +321,24 @@ header nav {
 }
 
 .nav-tab a {
-    font-family: "Inter";
-    font-weight: 200;
-    font-size: 1.25rem;
-    color: black;
-    text-decoration: none;
-    position: relative;
-  }
-  
-  .nav-tab a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -2px; /* Adjust the spacing value as needed */
-    width: 100%;
-    height: 2px; /* Adjust the thickness of the line */
-    background-color: black; /* Adjust the color of the line */
-    box-shadow: 0 2px 0 0 #d5c7ba; /* Adjust the color and offset of the shadow */
-  }
+  font-family: "Inter";
+  font-weight: 200;
+  font-size: 1.25rem;
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav-tab a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Adjust the spacing value as needed */
+  width: 100%;
+  height: 2px; /* Adjust the thickness of the line */
+  background-color: black; /* Adjust the color of the line */
+  box-shadow: 0 2px 0 0 #d5c7ba; /* Adjust the color and offset of the shadow */
+}
 
 /* .nav-tab.about a {
   text-decoration: underline;
@@ -381,105 +381,106 @@ header nav {
 } */
 
 .work-text h3 {
-    font-family: "Butler";
-    font-size: 4rem;
-    font-weight: 400;
-    color: black;
-    display: flex;
-    justify-content: left;
-    margin-top: 10px;
+  font-family: "Butler";
+  font-size: 4rem;
+  font-weight: 400;
+  color: black;
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
 }
 
 .work {
-    height: 50%;
+  height: 50%;
 }
 
 .yelp {
-    /* background-color: white; */
+  /* background-color: white; */
 }
 
 .yelp-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .yelp h3 {
-    font-family: "Butler";
-    padding-left: 20px;
-    font-size: 3rem;
-    font-weight: 400;
-    color: black;
-    display: flex;
-    justify-content: left;
-    margin-top: 10px;
+  font-family: "Butler";
+  padding-left: 20px;
+  font-size: 3rem;
+  font-weight: 400;
+  color: black;
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
 }
 
 .yelp-title {
-    display: flex;
-    align-items: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
-  }
-  
-  .yelp-title img {
-    height: auto;
-    max-height: 90%;
-    max-width: 90%;
-    margin-right: 10px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
-.yelp-text-container {
-    height: 100%;
-    display: block;
-    font-family: "Inter";
-    font-weight: 200;
-    justify-items: center;
-}
-
-.yelp-text-container h2 {  
-    font-family: "Butler";
-    font-weight: 400;
-    justify-items: center;
-}
-
-.yelp-text-container h3 {  
-    font-family: "Butler";
-    font-weight: 400;
-    font-size: 1rem;
-    justify-items: center;
+.yelp-title img {
+  height: auto;
+  max-height: 90%;
+  max-width: 90%;
+  margin-right: 10px; /* Adjust as needed */
 }
 
 .yelp-photo {
-    height: 100%;
-    background-image: url(./img/yelp.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center top;
-    min-width: 250px;
-    min-height: 250px;
-  }
+  height: 100%;
+  background-image: url(./img/yelp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  min-width: 250px;
+  min-height: 250px;
+}
+
+.yelp-text-container {
+  height: 100%;
+  display: block;
+  font-family: "Inter";
+  font-weight: 200;
+  justify-items: center;
+  padding-left: 15px;
+}
+
+.yelp-text-container h2 {
+  font-family: "Butler";
+  font-weight: 400;
+  justify-items: center;
+}
+
+.yelp-text-container h3 {
+  font-family: "Butler";
+  font-weight: 400;
+  font-size: 1.25rem;
+  padding: 0;
+}
 
 .starbucks {
-    background-color: grey;
+
 }
 
 footer {
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .icon {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 footer {
-    font-family: "Inter";
-    font-weight: 200;
+  font-family: "Inter";
+  font-weight: 200;
 }
 
 footer a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
