@@ -347,9 +347,8 @@ header nav {
 } */
 
 .about-container {
-  height: 300px;
+  height: 450px;
   margin-top: 75px;
-  margin-bottom: 175px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -360,6 +359,7 @@ header nav {
   font-family: "Inter";
   font-weight: 200;
   justify-items: center;
+  margin-right: 15px;
 }
 
 .about-container h2 {
@@ -372,15 +372,11 @@ header nav {
   height: 100%;
   background-image: url(./img/cover.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center top;
   min-width: 300px;
   min-height: 225px;
 }
-
-/* .work-container {
-    height: 200px;
-} */
 
 .work-text h3 {
   font-family: "Butler";
@@ -397,9 +393,9 @@ header nav {
   overflow: hidden;
 }
 
-.yelp {
-  /* background-color: white; */
-}
+/* .yelp {
+  background-color: white;
+} */
 
 .yelp-content {
   display: grid;
@@ -464,6 +460,10 @@ header nav {
   font-weight: 400;
   font-size: 1.25rem;
   padding: 0;
+}
+
+#starbucks {
+    margin-top: 0;
 }
 
 img[src="/src/img/starbucks-logo.png"] {

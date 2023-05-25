@@ -28,10 +28,10 @@ TO DO
         - [x] get the whole div functioning properly
     - [x] work
     - [x] contact
-    - [] footer
-        - [] linkedin
-        - [] instagram
-        - [] fix margin top
+    - [x] footer
+        - [x] linkedin
+        - [x] instagram
+        - [x] fix margin top
     - [] fix spacing between text pictures
     - [] fix spacing between content created for starbacks and barista
     - [] create scroll option
