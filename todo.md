@@ -14,17 +14,28 @@ TO DO
     - [] simple sketch on paper
 - [] Gather Assets 
     - [x] colors
-    - [] fonts
+    - [x] fonts
         - TITLE
             - butler
         - Regular Text
             - inter
-    - [] pictures
-    - [] links to her work
+    - [x] pictures
+    - [x] links to her work
 - [] steps
-    - [] about
-        - [] figure out how to get spacing right between about and the content
-        - [] get the picture to fit properly when scaled
-        - [] get the whole div functioning properly
-    - [] work
-    - [] contact
+    - [x] about
+        - [x] figure out how to get spacing right between about and the content
+        - [x] get the picture to fit properly when scaled
+        - [x] get the whole div functioning properly
+    - [x] work
+    - [x] contact
+    - [] footer
+        - [] linkedin
+        - [] instagram
+        - [] fix margin top
+    - [] fix spacing between text pictures
+    - [] fix spacing between content created for starbacks and barista
+    - [] create scroll option
+    - [] modify css to match different screen sizes
+        - [] macbook
+        - [] mobile
+        - [] big screen
