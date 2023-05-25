@@ -438,11 +438,15 @@ header nav {
 }
 
 .yelp-text-container {
-  height: 100%;
+  height: 65%;
   display: block;
   font-family: "Inter";
   font-weight: 200;
-  justify-items: center;
+}
+
+a {
+    margin-top: 15px;
+    color: black;
 }
 
 .right-text {
@@ -460,11 +464,19 @@ header nav {
   font-weight: 400;
   font-size: 1.25rem;
   padding: 0;
+  margin-bottom: 15px;
 }
 
 #starbucks {
     margin-top: 0;
 }
+
+#starbucks-text {
+    display: grid;
+    justify-content: space-between;
+}
+
+
 
 img[src="/src/img/starbucks-logo.png"] {
     width: 64px;
