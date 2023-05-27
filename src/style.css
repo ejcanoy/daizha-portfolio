@@ -237,6 +237,17 @@ main {
   /* background-color: white; */
 }
 
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: "Inter";
+    font-weight: 200;
+    margin-top: 50px;
+    height: 75%;
+    background-color: white;
+  }
+
 /* Styles for devices with a maximum width of 480px */
 @media (max-width: 480px) {
   /* CSS rules for small mobile devices */
@@ -244,6 +255,8 @@ main {
   main {
     width: 100%;
   }
+
+  
 }
 
 /* Styles for devices with a minimum width of 481px and a maximum width of 768px */
@@ -253,6 +266,10 @@ main {
   main {
     width: 90%;
   }
+  
+  footer {
+    margin-top: 100px;
+  }
 }
 
 /* Styles for devices with a minimum width of 769px */
@@ -260,7 +277,7 @@ main {
   /* CSS rules for desktop devices */
   /* Example: */
   main {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -286,7 +303,8 @@ html {
   background-color: #d5c7ba;
   height: 100vh;
   width: 100vw;
-  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-y: auto;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -314,7 +332,6 @@ ol {
   width: 50%;
   justify-content: space-between;
 }
-
 
 header nav {
   display: flex;
@@ -445,12 +462,12 @@ header nav {
 }
 
 a {
-    margin-top: 15px;
-    color: black;
+  margin-top: 15px;
+  color: black;
 }
 
 .right-text {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .work-title {
@@ -468,72 +485,64 @@ a {
 }
 
 #starbucks {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 #starbucks-text {
-    display: grid;
-    justify-content: space-between;
+  display: grid;
+  justify-content: space-between;
 }
 
-
-
 img[src="/src/img/starbucks-logo.png"] {
-    width: 64px;
-    height: 64px;
-    padding-left: 10px;
+  width: 64px;
+  height: 64px;
+  padding-left: 10px;
 }
 
 .instagram-embed {
-    max-width: 100%;
-    max-height: 65%;
-    overflow: hidden;
+  max-width: 100%;
+  max-height: 65%;
+  overflow: hidden;
 }
 
-img[src="/src/img/instagram.svg"], 
-img[src="/src/img/linkedin.svg"] ,
+img[src="/src/img/instagram.svg"],
+img[src="/src/img/linkedin.svg"],
 img[src="/src/img/email.svg"] {
-    width: 64px;
-    height: 64px;
-    padding-left: 10px;
+  width: 64px;
+  height: 64px;
+  padding-left: 10px;
 }
 
-h5 a{
-    display: flex;
-    align-items: center;
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: black;
-    font-family: 'Inter';
-    font-weight: 300;
+h5 a {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+  font-family: "Inter";
+  font-weight: 300;
 }
 
 h5 a:hover {
-    color: white;
+  color: white;
 }
 
 a img {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .contact-container .work-text h3 {
-    margin-bottom: 30px;
-  }
+  margin-bottom: 30px;
+}
 
 .contact-content h4 {
-    font-size: 1.5rem;
-    font-weight: 300;
-    margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 10px;
 }
 
 .contact-links {
-    margin-bottom: 50px;
-}
-
-footer {
-  height: 100px;
-  display: flex;
-  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .icon {
@@ -541,31 +550,27 @@ footer {
   justify-content: center;
 }
 
-footer {
-  font-family: "Inter";
-  font-weight: 200;
-  margin-top: 100px;
-  height: 75%;
-  background-color: white;
-}
-
-.icon img[src="/src/img/instagram.svg"], 
+.icon img[src="/src/img/instagram.svg"],
 .icon img[src="/src/img/linkedin.svg"] {
-    width: 32px;
-    height: 32px;
-    margin-bottom: 20px;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 20px;
 }
 
 .footer-content {
-    padding: 20px
+  padding: 20px;
 }
 
 footer a {
   text-decoration: underline;
 }
 
+footer a:hover {
+    color:#d5c7ba;
+  }
+
 .created-by {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
 }
