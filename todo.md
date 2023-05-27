@@ -34,7 +34,7 @@ TO DO
         - [x] fix margin top
     - [x] fix spacing between text pictures
     - [x] fix spacing between content created for starbacks and barista
-    - [] create scroll option
+    - [x] create scroll option
     - [] modify css to match different screen sizes
         - [] macbook
         - [] mobile
