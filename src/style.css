@@ -264,7 +264,7 @@ ol {
 
   html {
     background-color: #d5c7ba;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     overflow-y: auto;
     scroll-behavior: smooth;
@@ -340,8 +340,8 @@ ol {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-    min-width: 300px;
-    min-height: 225px;
+    min-width: 400px;
+    min-height: 400px;
   }
   
   .work-text h3 {
@@ -532,11 +532,12 @@ ol {
   }
 
   ol {
-    width: 100%;
+    width: 85%;
+
   }
 
   .about-container {
-    background-color: blue;
+    margin-top: 0px;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "cover-photo" "about-text-container";
   }
@@ -545,10 +546,24 @@ ol {
     grid-area: cover-photo;
   }
 
-  .about-text-container {
-    grid-area: about-text-container;
+  .cover-photo {
+    background-size: cover;
   }
 
+  .about-text-container {
+    grid-area: about-text-container;
+    margin-top: 10px;
+    width: 90%;
+    justify-self: center;
+  }
+  
+  .about-container h2 {
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  
   
 }
 
