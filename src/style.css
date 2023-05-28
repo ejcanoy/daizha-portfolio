@@ -524,7 +524,14 @@ footer a:hover {
   margin-top: 15px;
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 360px) {
+    body {
+        overflow-x: auto;
+    }
+}
+
+@media (max-width: 767px) {
 
   main {
     width: 100%;
@@ -566,6 +573,10 @@ footer a:hover {
     padding: 5px;
   }
 
+  #work-section {
+    padding-top: 20px;
+  }
+
   .yelp-content {
     display: grid;
     grid-template-columns: unset;
@@ -582,22 +593,20 @@ footer a:hover {
 
   .yelp-content {
     margin-top: 0px;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
     grid-template-areas: "media" "text";
   }
 
   .instagram-embed {
     grid-area: media;
     height: 80%;
-  }
-
-  .yelp-content {
-    grid-area: text;
+    justify-self: center;
   }
 
   .yelp-text-container {
     width: 90%;
     justify-self: center;
+    grid-area: text;
   }
 
   .contact-content h4 {
@@ -626,7 +635,7 @@ footer a:hover {
   }
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
   main {
     width: 90%;
   }
