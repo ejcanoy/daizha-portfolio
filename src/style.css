@@ -660,7 +660,11 @@ ol {
 
 @media (min-width: 1441px) {
   main {
-    width: 60%;
+    max-width: 1000px;
+  }
+
+  ol {
+    max-width: 1000px;
   }
 
   .about-container {
