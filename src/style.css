@@ -244,6 +244,7 @@ footer {
   font-weight: 200;
   margin-top: 50px;
   height: 75%;
+  background-color: white;
 }
 
 .about-container {
@@ -253,283 +254,283 @@ footer {
 }
 
 ol {
-    display: inline-flex;
-    list-style-type: none;
-    width: 50%;
-    justify-content: space-between;
-  }
+  display: inline-flex;
+  list-style-type: none;
+  width: 50%;
+  justify-content: space-between;
+}
 
+html {
+  background-color: #d5c7ba;
+  height: 100%;
+  width: 100vw;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
 
-  html {
-    background-color: #d5c7ba;
-    height: 100%;
-    width: 100vw;
-    overflow-y: auto;
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    display: grid;
-    height: 100vh;
-    width: 100vw;
-    overflow-x: hidden;
-    grid-template-rows: 1fr 4fr;
-  }
-  
-  .hello {
-    font-family: "Butler";
-    font-size: 3.5rem;
-    /* font-weight: 300; */
-    color: black;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  
-  header nav {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-  }
-  
-  .nav-tab a {
-    font-family: "Inter";
-    font-weight: 200;
-    font-size: 1.25rem;
-    color: black;
-    text-decoration: none;
-    position: relative;
-  }
-  
-  .nav-tab a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -2px; /* Adjust the spacing value as needed */
-    width: 100%;
-    height: 2px; /* Adjust the thickness of the line */
-    background-color: black; /* Adjust the color of the line */
-    box-shadow: 0 2px 0 0 #d5c7ba; /* Adjust the color and offset of the shadow */
-  }
-  
-  /* .nav-tab.about a {
+body {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  grid-template-rows: 1fr 4fr;
+}
+
+.hello {
+  font-family: "Butler";
+  font-size: 3.5rem;
+  /* font-weight: 300; */
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.nav-tab a {
+  font-family: "Inter";
+  font-weight: 200;
+  font-size: 1.25rem;
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav-tab a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Adjust the spacing value as needed */
+  width: 100%;
+  height: 2px; /* Adjust the thickness of the line */
+  background-color: black; /* Adjust the color of the line */
+  box-shadow: 0 2px 0 0 #d5c7ba; /* Adjust the color and offset of the shadow */
+}
+
+/* .nav-tab.about a {
     text-decoration: underline;
   } */
-  
-  .about-text-container {
-    height: 100%;
-    display: block;
-    font-family: "Inter";
-    font-weight: 200;
-    justify-items: center;
-    margin-right: 15px;
-  }
-  
-  .about-container h2 {
-    font-family: "Butler";
-    font-weight: 500;
-    font-size: 5.5rem;
-  }
-  
-  .cover-photo {
-    height: 100%;
-    background-image: url(./img/cover.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
-    min-width: 400px;
-    min-height: 400px;
-  }
-  
-  .work-text h3 {
-    font-family: "Butler";
-    font-size: 4rem;
-    font-weight: 400;
-    color: black;
-    display: flex;
-    justify-content: left;
-    margin-top: 10px;
-  }
-  
-  .work {
-    height: 50%;
-    overflow: hidden;
-  }
-  
-  /* .yelp {
+
+.about-text-container {
+  height: 100%;
+  display: block;
+  font-family: "Inter";
+  font-weight: 200;
+  justify-items: center;
+  margin-right: 15px;
+}
+
+.about-container h2 {
+  font-family: "Butler";
+  font-weight: 500;
+  font-size: 5.5rem;
+}
+
+.cover-photo {
+  height: 100%;
+  background-image: url(./img/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  min-width: 400px;
+  min-height: 400px;
+}
+
+.work-text h3 {
+  font-family: "Butler";
+  font-size: 4rem;
+  font-weight: 400;
+  color: black;
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.work {
+  height: 50%;
+  overflow: hidden;
+}
+
+/* .yelp {
     background-color: white;
   } */
-  
-  .yelp-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  .yelp h3 {
-    font-family: "Butler";
-    padding-left: 20px;
-    font-size: 3rem;
-    font-weight: 400;
-    color: black;
-    display: flex;
-    justify-content: left;
-    margin-top: 10px;
-  }
-  
-  .yelp-title {
-    display: flex;
-    align-items: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
-  }
-  
-  .yelp-title img {
-    /* height: auto;
+
+.yelp-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.yelp h3 {
+  font-family: "Butler";
+  padding-left: 20px;
+  font-size: 3rem;
+  font-weight: 400;
+  color: black;
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.yelp-title {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.yelp-title img {
+  /* height: auto;
     max-height: 90%;
     max-width: 90%; */
-    margin-right: 10px; /* Adjust as needed */
-  }
-  
-  .yelp-photo {
-    height: 100%;
-    background-image: url(./img/yelp.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
-  }
-  
-  .yelp-text-container {
-    height: 65%;
-    display: block;
-    font-family: "Inter";
-    font-weight: 200;
-  }
-  
-  a {
-    margin-top: 15px;
-    color: black;
-  }
-  
-  .right-text {
-    padding-left: 20px;
-  }
-  
-  .work-title {
-    font-family: "Butler";
-    font-weight: 400;
-    justify-items: center;
-  }
-  
-  .yelp-text-container h3 {
-    font-family: "Butler";
-    font-weight: 400;
-    font-size: 1.25rem;
-    padding: 0;
-    margin-bottom: 15px;
-  }
-  
-  #starbucks {
-    margin-top: 0;
-  }
-  
-  #starbucks-text {
-    display: grid;
-    justify-content: space-between;
-  }
-  
-  img[src="/src/img/starbucks-logo.png"] {
-    width: 64px;
-    height: 64px;
-    padding-left: 10px;
-  }
-  
-  .instagram-embed {
-    max-width: 100%;
-    max-height: 65%;
-    overflow: hidden;
-  }
-  
-  img[src="/src/img/instagram.svg"],
-  img[src="/src/img/linkedin.svg"],
-  img[src="/src/img/email.svg"] {
-    width: 64px;
-    height: 64px;
-    padding-left: 10px;
-  }
-  
-  h5 a {
-    display: flex;
-    align-items: center;
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: black;
-    font-family: "Inter";
-    font-weight: 300;
-  }
-  
-  h5 a:hover {
-    color: white;
-  }
-  
-  a img {
-    margin-right: 10px;
-  }
-  
-  .contact-container .work-text h3 {
-    margin-bottom: 30px;
-  }
-  
-  .contact-content h4 {
-    font-size: 1.5rem;
-    font-weight: 300;
-    margin-bottom: 10px;
-  }
-  
-  .contact-links {
-    margin-bottom: 50px;
-  }
-  
-  .icon {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .icon img[src="/src/img/instagram.svg"],
-  .icon img[src="/src/img/linkedin.svg"] {
-    width: 32px;
-    height: 32px;
-    margin-bottom: 20px;
-  }
-  
-  .footer-content {
-    padding: 20px;
-  }
-  
-  footer a {
-    text-decoration: underline;
-  }
-  
-  footer a:hover {
-    color: #d5c7ba;
-  }
-  
-  .created-by {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-  }
-  
+  margin-right: 10px; /* Adjust as needed */
+}
 
-@media  (max-width: 768px) {
+.yelp-photo {
+  height: 100%;
+  background-image: url(./img/yelp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
 
+.yelp-text-container {
+  height: 65%;
+  display: block;
+  font-family: "Inter";
+  font-weight: 200;
+}
+
+a {
+  margin-top: 15px;
+  color: black;
+}
+
+.right-text {
+  padding-left: 20px;
+}
+
+.work-title {
+  font-family: "Butler";
+  font-weight: 400;
+  justify-items: center;
+}
+
+.yelp-text-container h3 {
+  font-family: "Butler";
+  font-weight: 400;
+  font-size: 1.25rem;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+#starbucks {
+  margin-top: 0;
+}
+
+#starbucks-text {
+  display: grid;
+  justify-content: space-between;
+}
+
+img[src="/src/img/starbucks-logo.png"] {
+  width: 64px;
+  height: 64px;
+  padding-left: 10px;
+}
+
+.instagram-embed {
+  max-width: 100%;
+  max-height: 65%;
+  overflow: hidden;
+}
+
+img[src="/src/img/instagram.svg"],
+img[src="/src/img/linkedin.svg"],
+img[src="/src/img/email.svg"] {
+  width: 64px;
+  height: 64px;
+  padding-left: 10px;
+}
+
+h5 a {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+  font-family: "Inter";
+  font-weight: 300;
+}
+
+h5 a:hover {
+  color: white;
+}
+
+a img {
+  margin-right: 10px;
+}
+
+.contact-container {
+    margin-top: 150px;
+  }
+
+.contact-container .work-text h3 {
+  margin-bottom: 30px;
+}
+
+.contact-content h4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.contact-links {
+  margin-bottom: 50px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+}
+
+.icon img[src="/src/img/instagram.svg"],
+.icon img[src="/src/img/linkedin.svg"] {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 20px;
+}
+
+.footer-content {
+  padding: 20px;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #d5c7ba;
+}
+
+.created-by {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
   main {
     width: 100%;
   }
 
   ol {
     width: 85%;
-
   }
 
   .about-container {
@@ -552,27 +553,27 @@ ol {
     width: 90%;
     justify-self: center;
   }
-  
+
   .about-container h2 {
     font-size: 3.5rem;
     display: flex;
     justify-content: center;
   }
 
- .work-text {
+  .work-text {
     padding: 5px;
- }
+  }
 
   .yelp-content {
     display: grid;
     grid-template-columns: unset;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
   }
 
   .yelp-photo {
     height: 90%;
   }
-  
+
   .right-text {
     padding-left: 0;
   }
@@ -613,14 +614,14 @@ ol {
     width: 32px;
     height: 32px;
   }
-  
+
   h5 a {
     font-size: 1.25rem;
   }
-  
-.contact-container {
+
+  .contact-container {
     margin-top: 50px;
-}
+  }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -635,7 +636,6 @@ ol {
   ol {
     width: 50%;
   }
-
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
