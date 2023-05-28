@@ -525,8 +525,10 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
+
   main {
     width: 100%;
+    grid-template-rows: 1fr 3fr 0.75fr;
   }
 
   ol {
