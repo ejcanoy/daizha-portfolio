@@ -238,66 +238,88 @@ main {
 }
 
 footer {
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    font-family: "Inter";
-    font-weight: 200;
-    margin-top: 50px;
-    height: 75%;
-    background-color: white;
-  }
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter";
+  font-weight: 200;
+  margin-top: 50px;
+  height: 75%;
+  background-color: white;
+}
 
-/* Styles for devices with a maximum width of 480px */
-@media (max-width: 480px) {
-  /* CSS rules for small mobile devices */
-  /* Example: */
+/* Small phones up to 576px */
+@media (max-width: 576px) {
+  /* CSS styles specific to small phones */
   main {
     width: 100%;
   }
 
-  
+  .about-container {
+    background-color: green;
+  }
 }
 
-/* Styles for devices with a minimum width of 481px and a maximum width of 768px */
-@media (min-width: 481px) and (max-width: 720px) {
-  /* CSS rules for medium-sized devices like tablets */
+/* Medium-sized phones from 577px to 768px */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* CSS styles specific to medium-sized phones */
+  main {
+    width: 100%;
+  }
+
+  .about-container {
+    background-color: blue;
+  }
+}
+
+/* Large phones from 769px to 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* CSS styles specific to large phones */
   /* Example: */
   main {
     width: 90%;
   }
-  
-  footer {
-    margin-top: 100px;
+
+  .about-container {
+    background-color: white;
   }
 }
 
-/* Styles for devices with a minimum width of 769px */
-@media (min-width: 721px) and (max-width: 1080px) {
-  /* CSS rules for desktop devices */
-  /* Example: */
+/* Tablets from 993px to 1200px */
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* CSS styles specific to tablets */
   main {
-    width: 90%;
+    width: 80%;
+  }
+
+  .about-container {
+    background-color: brown;
   }
 }
 
-/* Styles for devices with a minimum width of 769px */
-@media (min-width: 1081px) and (max-width: 1440px) {
-  /* CSS rules for desktop devices */
-  /* Example: */
+/* Desktop screens from 1201px to 1440px */
+@media (min-width: 1201px) and (max-width: 1440px) {
+  /* CSS styles specific to desktop screens */
+  main {
+    width: 70%;
+  }
+
+  .about-container {
+    background-color: brown;
+  }
+}
+
+/* Screens larger than 1440px */
+@media (min-width: 1441px) {
+  /* CSS styles specific to screens larger than 1440px */
   main {
     width: 60%;
   }
-}
 
-/* Styles for devices with a minimum width of 769px */
-/* @media (min-width: 1441px) and (max-width: 2560px) {
-    /* CSS rules for desktop devices */
-/* Example: */
-/* main {
-      width: 60%;
-    } */
-/* } */
+  .about-container {
+    background-color: black;
+  }
+}
 
 html {
   background-color: #d5c7ba;
@@ -566,8 +588,8 @@ footer a {
 }
 
 footer a:hover {
-    color:#d5c7ba;
-  }
+  color: #d5c7ba;
+}
 
 .created-by {
   display: flex;
