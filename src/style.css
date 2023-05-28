@@ -399,8 +399,6 @@ ol {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-    min-width: 250px;
-    min-height: 250px;
   }
   
   .yelp-text-container {
@@ -563,8 +561,25 @@ ol {
     justify-content: center;
   }
 
+ .work-text {
+    padding: 5px;
+ }
+
+  .yelp-content {
+    display: grid;
+    grid-template-columns: unset;
+    grid-template-rows: 1fr 1fr ;
+  }
+
+  .yelp-photo {
+    height: 90%;
+  }
   
-  
+  .right-text {
+    padding-left: 0;
+    width: 90%;
+    justify-self: center;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
