@@ -438,9 +438,9 @@ header nav {
 }
 
 .yelp-title img {
-  height: auto;
+  /* height: auto;
   max-height: 90%;
-  max-width: 90%;
+  max-width: 90%; */
   margin-right: 10px; /* Adjust as needed */
 }
 
@@ -493,7 +493,7 @@ a {
   justify-content: space-between;
 }
 
-img[src="./img/starbucks-logo.png"] {
+img[src="/src/img/starbucks-logo.png"] {
   width: 64px;
   height: 64px;
   padding-left: 10px;
@@ -505,9 +505,9 @@ img[src="./img/starbucks-logo.png"] {
   overflow: hidden;
 }
 
-img[src="./img/instagram.svg"],
-img[src="./img/linkedin.svg"],
-img[src="./img/email.svg"] {
+img[src="/src/img/instagram.svg"],
+img[src="/src/img/linkedin.svg"],
+img[src="/src/img/email.svg"] {
   width: 64px;
   height: 64px;
   padding-left: 10px;
@@ -550,8 +550,8 @@ a img {
   justify-content: center;
 }
 
-.icon img[src="./img/instagram.svg"],
-.icon img[src="./img/linkedin.svg"] {
+.icon img[src="/src/img/instagram.svg"],
+.icon img[src="/src/img/linkedin.svg"] {
   width: 32px;
   height: 32px;
   margin-bottom: 20px;
