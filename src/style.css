@@ -234,7 +234,6 @@ main {
   grid-template-rows: 1fr 2fr 0.75fr;
   width: 60%;
   justify-self: center;
-  /* background-color: white; */
 }
 
 footer {
@@ -245,7 +244,6 @@ footer {
   font-weight: 200;
   margin-top: 50px;
   height: 75%;
-  background-color: white;
 }
 
 .about-container {
@@ -631,7 +629,6 @@ ol {
   }
 
   .about-container {
-    background-color: white;
     grid-template-columns: 1fr 1fr;
   }
 
@@ -647,7 +644,6 @@ ol {
   }
 
   .about-container {
-    background-color: brown;
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -658,7 +654,6 @@ ol {
   }
 
   .about-container {
-    background-color: brown;
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -669,7 +664,6 @@ ol {
   }
 
   .about-container {
-    background-color: black;
     grid-template-columns: 1fr 1fr;
   }
 }
