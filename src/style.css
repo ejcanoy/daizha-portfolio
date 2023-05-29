@@ -276,7 +276,7 @@ body {
   grid-template-rows: 1fr 4fr;
 }
 
-.hello {
+.title {
   font-family: "Butler";
   font-size: 3.5rem;
   /* font-weight: 300; */
@@ -312,10 +312,6 @@ header nav {
   background-color: black; /* Adjust the color of the line */
   box-shadow: 0 2px 0 0 #d5c7ba; /* Adjust the color and offset of the shadow */
 }
-
-/* .nav-tab.about a {
-    text-decoration: underline;
-  } */
 
 .about-text-container {
   height: 100%;
