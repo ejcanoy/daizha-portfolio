@@ -237,6 +237,11 @@ main {
 }
 
 footer {
+  width: 100%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding-left: 50vw;
+  padding-right: 50vw;
   height: 100px;
   display: flex;
   justify-content: center;
@@ -438,9 +443,7 @@ a {
   overflow: hidden;
 }
 
-img[src="/src/img/instagram.svg"],
-img[src="/src/img/linkedin.svg"],
-img[src="/src/img/email.svg"] {
+a img {
   width: 64px;
   height: 64px;
   padding-left: 10px;
@@ -487,8 +490,7 @@ a img {
   justify-content: center;
 }
 
-.icon img[src="/src/img/instagram.svg"],
-.icon img[src="/src/img/linkedin.svg"] {
+.icon img {
   width: 32px;
   height: 32px;
   margin-bottom: 20px;
@@ -578,19 +580,21 @@ footer a:hover {
     padding-left: 0;
   }
 
-  .yelp-content {
+  .work-content {
     margin-top: 0px;
-    grid-template-rows: 0.5fr 1fr;
+    grid-template-rows: 0.75fr 1fr;
+    grid-template-columns: unset;
     grid-template-areas: "media" "text";
   }
 
   .instagram-embed {
     grid-area: media;
-    height: 80%;
+    height: 50%;
+    padding-top: 150px;
     justify-self: center;
   }
 
-  .yelp-text-container {
+  .work-text-container {
     width: 90%;
     justify-self: center;
     grid-area: text;
@@ -606,9 +610,7 @@ footer a:hover {
     margin-bottom: 25px;
   }
 
-  img[src="/src/img/instagram.svg"],
-  img[src="/src/img/linkedin.svg"],
-  img[src="/src/img/email.svg"] {
+  a img {
     width: 32px;
     height: 32px;
   }
