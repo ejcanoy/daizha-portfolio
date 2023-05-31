@@ -171,6 +171,7 @@ function yelp() {
 function starbucks() {
   const workElement = document.createElement("div");
   workElement.classList.add("work");
+  workElement.setAttribute("id", "starbucks-work");
 
   const workTitleElement = document.createElement("div");
   workTitleElement.classList.add("work-title");
@@ -191,6 +192,7 @@ function starbucks() {
 
   const workTextContainerElement = document.createElement("div");
   workTextContainerElement.classList.add("work-text-container");
+  workTextContainerElement.setAttribute("id", "starbucks-text")
 
   const h2YelpElement = document.createElement("h2");
   h2YelpElement.classList.add("work-title");
